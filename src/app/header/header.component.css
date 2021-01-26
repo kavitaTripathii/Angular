@@ -1,0 +1,14 @@
+.navbar{
+  background-color: black;
+  height: 50px;
+}
+
+a {
+  text-align: right;
+  color: white;
+ float: right;
+}
+
+img{
+  height:40px;
+}

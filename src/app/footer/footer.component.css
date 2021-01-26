@@ -1,0 +1,16 @@
+.footer{
+  padding-top: 20px; height:auto;
+  background-color:black;
+}
+.footer h2{
+  color:white;
+  font-size:30px;
+  font-family: "Lato","Helvetica Neue", "Dancing Script",cursive,Helvetica,Arial,sans-serif;
+  text-align: center;
+  display: block;
+}
+p{
+  padding-top: 4px; padding-bottom: 7px;
+  font-family: 'Source Serif Pro', serif;
+  color:white ;
+}
