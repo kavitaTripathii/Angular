@@ -1,0 +1,16 @@
+p{
+  font-size: large; color:black;
+  margin-left: 14px; margin-right: 14px; justify-content: safe;
+  font-family: 'Source Serif Pro', serif;
+}
+.jumbotron {
+  display: block; text-align: center; margin-top: 10px; margin-bottom:10px ;
+}
+.jumbotron h2{
+  margin-top: 20px;
+}
+.jumbotron h5{  margin-left: 14px; margin-right: 14px;
+  justify-content: safe;}
+.row{
+   margin-top: 2px;
+}
