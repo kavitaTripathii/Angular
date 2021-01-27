@@ -12,7 +12,9 @@ import { SweetsComponent } from './sweets/sweets.component';
 import { ArtComponent } from './art/art.component';
 import { FestivalsComponent } from './festivals/festivals.component';
 import { ArchitectureComponent } from './architecture/architecture.component';
-
+import { StoriesComponent } from './stories/stories.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -27,7 +29,9 @@ const routes: Routes = [
   { path: 'art', component: ArtComponent },
   { path: 'pulses', component: PulsesComponent },
   { path: 'sweets', component: SweetsComponent },
-  { path: 'architecture', component: ArchitectureComponent}
+  { path: 'architecture', component: ArchitectureComponent},
+  { path: 'stories', component: StoriesComponent },
+  { path: 'gallery', component: GalleryComponent }
 ];
 
 @NgModule({

@@ -17,6 +17,9 @@ import { ArtComponent } from './art/art.component';
 import { LanguageComponent } from './language/language.component';
 import { ArchitectureComponent } from './architecture/architecture.component';
 import { FestivalsComponent } from './festivals/festivals.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { StoriesComponent } from './stories/stories.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { FestivalsComponent } from './festivals/festivals.component';
     ArtComponent,
     LanguageComponent,
     ArchitectureComponent,
-    FestivalsComponent
+    FestivalsComponent,
+    BlogsComponent,
+    StoriesComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
