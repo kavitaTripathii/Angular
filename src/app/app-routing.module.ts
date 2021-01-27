@@ -15,6 +15,7 @@ import { ArchitectureComponent } from './architecture/architecture.component';
 import { StoriesComponent } from './stories/stories.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { FolkComponent } from './folk/folk.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -31,7 +32,8 @@ const routes: Routes = [
   { path: 'sweets', component: SweetsComponent },
   { path: 'architecture', component: ArchitectureComponent},
   { path: 'stories', component: StoriesComponent },
-  { path: 'gallery', component: GalleryComponent }
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'folk', component: FolkComponent }
 ];
 
 @NgModule({
