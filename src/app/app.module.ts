@@ -20,6 +20,7 @@ import { FestivalsComponent } from './festivals/festivals.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { StoriesComponent } from './stories/stories.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { FolkComponent } from './folk/folk.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     FestivalsComponent,
     BlogsComponent,
     StoriesComponent,
-    GalleryComponent
+    GalleryComponent,
+    FolkComponent
   ],
   imports: [
     BrowserModule,

@@ -4,13 +4,12 @@ p{
   font-family: 'Source Serif Pro', serif;
 }
 .jumbotron {
-  display: block; text-align: center; margin-top: 30px;
-  height:auto; margin-bottom: -10px;
+  display: block; text-align: center; margin-top: 10px; margin-bottom:10px ;
 }
 .jumbotron h2{
-  margin-top: -40px;
+  margin-top: 20px;
 }
-.jumbotron h5{ padding-top: 10px; margin-left: 14px; margin-right: 14px;
+.jumbotron h5{  margin-left: 14px; margin-right: 14px;
   justify-content: safe;}
 .row{
    margin-top: 2px;
